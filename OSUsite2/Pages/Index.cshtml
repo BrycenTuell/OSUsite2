@@ -4,7 +4,83 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to OSU this is a change to the code</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<head>
+    <meta charset="UTF-8" />
+    <title>MSIS 4363 — DevOps Course Landing Page</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #FF7300;
+        }
+        
+
+        section {
+            margin-top: 32px;
+        }
+
+      
+
+        
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src=" ~ /images/osu-logo.png" />
+        <h1>MSIS 4363 · Advanced App Development</h1>
+        <p>Spears School of Business · Management Science & Information Systems</p>
+    </header>
+    <hr />
+
+    <!-- about -->
+    <section id="about">
+        <h2>What This Course Covers</h2>
+        <p>
+            This course is designed to extend your understanding of the software development pipeline
+            by introducing current topics and technologies. The course focuses specifically on DevOps concepts and
+            technologies in line with the current software development landscape.
+        </p>
+    </section>
+
+    <!-- concepts -->
+    <section id="concepts">
+        <h2>DevOps Concepts</h2>
+        <ul>
+            <li>Agile planning and teamwork (user stories, sprints, boards)</li>
+            <li>Git workflows (branches, pull requests, code review)</li>
+            <li>Continuous Integration (automated builds, tests, feedback)</li>
+            <li>Continuous Delivery basics (promoting changes safely)</li>
+            <li>Automation mindset (scripts, pipelines, repeatable steps)</li>
+            <li>Monitoring & learning from failures</li>
+        </ul>
+    </section>
+
+    <!-- tools -->
+    <section id="tools">
+        <h2>Tools We Use & What They Demonstrate</h2>
+        <ul>
+            <li>Azure DevOps — Used for managing backlogs, sprint planning, and CI/CD pipelines. It shows employers you understand Agile workflows and how teams organize real projects.</li>
+            <li>GitHub — Used for source control, branching, pull requests, and collaboration. It proves you can work in a shared codebase using modern Git workflows like feature branches and code reviews.</li>
+            <li>Docker — Used to containerize applications so they run the same on every machine. Shows you understand containers, images, Dockerfiles, and the basics of cloud deployment.</li>
+        </ul>
+    </section>
+
+    <!-- jobs -->
+    <section id="Jobs">
+        <h2>How This Translates to Entry-Level DevOps Roles</h2>
+        <ul>
+            <li>Version Control & Collaboration: Using GitHub teaches branching, merging, pull requests, and working with others in the same repo, all required in DevOps jobs.</li>
+            <li>Agile Planning: Creating user stories, assigning tasks, and tracking progress in Azure DevOps is how real development teams plan sprints and organize work.</li>
+            <li>CI/CD Foundations: Azure Pipelines or GitHub Actions introduce automated builds and deployments, a core part of DevOps pipelines in companies.</li>
+            <li>Containerization: Using Docker to build and run applications in containers shows employers you understand how software is packaged and shipped consistently across environments.</li>
+            <li>Deploying to Cloud Environments: Publishing apps to Azure connects classroom projects to real cloud deployment workflows used by DevOps engineers.</li>
+            <li>Troubleshooting & Logs: Fixing broken pipelines, container errors, and deployment issues teaches problem-solving — one of the most important DevOps skills.</li>
+        </ul>
+    </section>
+</body>
